@@ -1,0 +1,382 @@
+
+	
+	/*-- start sponser Hero ---*/
+
+	.hero-sponser{
+		width:100%;
+		height:500px;
+		background-color: #888;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding-top: 200px;
+	}
+
+	.hero-sponser span,.speakers-hero span{
+		font-size: 75px;
+		display: inline-block;
+		height: 100px;
+		line-height: 80px;
+		font-weight: bolder;
+		letter-spacing: 10px;
+		border: 4px solid red;
+		color: red;
+		transform: rotate(340deg);
+	}
+	/*-- end sponser  Hero ---*/
+	
+/*-- start information-icons --*//*-- Moamen Gamal --*/
+
+.information-icons{
+	height: 250px;
+	background-color: #cacaca;
+}
+.information-icons .information-icon{
+	margin-top: 80px;
+	text-align: center;
+}
+
+/*-- end information-icons --*//*-- Moamen Gamal --*/
+
+
+	/*-- start speaker Hero ---*/
+	.speakers-hero{
+		width:100%;
+		height:500px;
+		background-color: #888;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding-top: 200px;
+	}
+
+
+	/*-- end speaker Hero ---*/
+
+
+/*-- end Hero---*/
+
+
+	/*-- start exhipition content ---*/
+
+
+
+	
+.container-fixed{
+	width: 93%;
+	margin: 0 auto;
+}
+
+	/* Start exception_main */
+
+.container-fixed .exception .row {
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.container-fixed .exception .row .sub_exception{
+	height: 238px;
+	margin-bottom: 35px;
+}
+
+	/* video */
+
+.container-fixed .exception .row .sub_exception iframe {
+	width: 100%;
+	height: 80%;
+}
+
+.container-fixed .exception .row .lnteraction {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 20%;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+.icon {
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.icon:hover {
+	color: rgb(163, 185, 185);
+}
+
+
+
+/* I am Ahmed Al-Sharqawi, and here ends the tribute required of me */
+	/*-- end exhipition content ---*/
+	/*-- start sponser content ---*/
+  
+.sponser-section{
+	background-color:#888 ;
+	margin: 60px;
+	padding: 50px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.sponser-section img{
+	width: 100px;
+	height: auto;
+}
+.sponser-section h2{
+    text-align: right;
+
+}
+
+.sponser-section p{
+	margin-top: 50px;
+}
+
+	/*-- end sponser content ---*/
+	/*************************************************************************/
+	/************************************************************************/
+
+	/* Name Ragab Hussien */
+
+	/* start speakers content*/
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container-fixed{
+	width: 93%;
+	margin: 50px auto;
+}
+
+	/* Start speakers_main */
+
+.speakers_main {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.speakers_main div{
+	width: calc(80% / 2);
+	height: 200px;
+	margin-bottom: 35px;
+}
+.speakers_main div iframe {
+	width: 100%;
+	height: 100%;
+}
+
+	/*  Start comment_main */
+
+.comment_main {
+	border-left: 3px solid #ddd;
+	height: 145vh;
+}
+
+.comment_main .sub_comment {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.comment_main .sub_comment .comment {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+	/* coordinate img */
+
+.comment_main .sub_comment .comment img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.comment_main .sub_comment .comment input {
+	width: 100%;
+	height: 40px;
+	border-radius: 50px;
+	outline: none;
+	padding: 15px;
+	border: 1px solid;
+}
+
+	/* coordinate textarea */
+
+.comment_main .sub_comment textarea {
+	min-width: 100%;
+	min-height: 250px;
+	max-height: 250px;
+	padding: 20px;
+	border-radius: 40px;
+	border: 1px solid;
+	outline: none;
+} 
+
+	/* coordinate buttib_submit */
+
+.comment_main .sub_comment .buttib_submit {
+	width: 80%;
+	height: 35px;
+	margin-top: 30px;
+	border-radius: 50px;
+	border-color: #ddd;
+	color: white;
+	font-size: 20px;
+	background-color: #FF9800;
+	border: #FF9800;
+}
+
+/* end speakers content*/
+/* I am Ahmed Al-Sharqawi responsible for the special 
+	part of the main tracks from the beginning here until I mention the end */
+
+	/* button_fixed ==> tracks */
+.button_fixed {
+	width: 150px;
+	height: 45px;
+	border: 2px solid #ff9800;
+	background-color: #ff9800;
+	cursor: pointer;
+	border-radius: 50px;
+	transition: .5s;
+}
+
+.button_fixed:active {
+	font-size: 12px;
+}
+
+.button_fixed a {
+    font-size: 22px;
+    color: white;
+    padding: 40px;
+}
+
+	/* start main ==> defining_main */
+
+.defining_main .container .row {
+	justify-content: space-around;
+	margin: 40px 0;
+}
+
+.defining_main .container .row .sub_defining {
+	background-color: #CACACA;
+	padding: 20px;
+	border-radius: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	box-shadow: 0 0 12px 0px #4d4848;
+}
+
+.defining_main .container .row .sub_defining h3 {
+	color: #232220;
+}
+
+.defining_main .container .row .sub_defining p {
+	padding: 0 18px;
+	color: #5d626d;
+	font-weight: 500;
+}
+
+.defining_main .container .row .sub_defining button {
+	outline: none;
+}
+
+	/* Start our  ==> tracks_main section */
+
+.tracks_main .container h2 {
+	color: #232323;
+	text-align: center;
+	padding: 0 0 40px 0;
+	font-size: 55px;
+	margin-bottom: 0;
+	font-weight: 700;
+}
+
+.tracks_main .container h2 span {
+	color: #ff9800;
+}
+
+.tracks_main .container .sub_tracks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.tracks_main .container .sub_tracks div {
+	width: calc(90% / 3);
+	background-color: #CACACA;
+	border-radius: 20px;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 35px;
+	box-shadow: 0 0 12px 0px #4d4848;
+}
+
+.tracks_main .container .sub_tracks div h3 {
+	padding: 25px 0;
+	margin: 0;
+	color: #232220;
+}
+
+.tracks_main .container .sub_tracks div p {
+	padding: 0 18px;
+	color: #5d626d;
+	font-weight: 500;
+}
+
+	/* I am Ahmed Al-Sharqawi, and here ends the tribute required of me */
+
+	/* end our ==> tracks_main section */
+
+
+
+
+
+
+
+
+
+/* ----------------------------- Responsive Media Styles -----------------------------*/
+
+
+
+/* Large Mobile */
+
+@media only screen and (max-width: 767px) {
+
+	/* I am Ahmed Al-Sharqawi responsible for the special 
+	part of the main tracks from the beginning here until I mention the end */
+	.tracks_main .container .sub_tracks { 
+		align-items: center;
+	}
+	.tracks_main .container .sub_tracks div {
+		width: calc(90% /2);
+		transition: .5;
+	}
+		/* I am Ahmed Al-Sharqawi, and here ends the tribute required of me */
+
+}
+
+/* Small Mobile */
+
+@media only screen and (max-width: 479px) {
+	/* I am Ahmed Al-Sharqawi responsible for the special 
+	part of the main tracks from the beginning here until I mention the end */
+	.tracks_main .container .sub_tracks { 
+		flex-direction: column;
+		align-items: center;
+	}
+	.tracks_main .container .sub_tracks div {
+		width: 90%;
+		transition: .5;
+	}
+		/* I am Ahmed Al-Sharqawi, and here ends the tribute required of me */
+
+}

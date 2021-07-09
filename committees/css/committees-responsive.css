@@ -1,0 +1,88 @@
+@media(max-width: 767px){
+   /*--------------------------------------------header style--------------------------------------------------------*/
+.committee-section  .header{
+    padding-bottom: 35px;
+}
+.committee-section  .logo{
+    height: 150px;
+    width: 150px;
+}
+.committee-section .img-box{
+    max-width: 350px;
+    padding: 10px;
+} 
+
+.committee-section .committee-name{
+    padding-top: 35px;
+    height: 150px;
+    width: 150px;
+}
+.committee-section .committee-name h2{
+    font-size: 20px;
+}
+/*--------------------------------------------content style--------------------------------------------------------*/
+.committee-section .content{
+    padding: 35px 80px; 
+    
+}
+.committee-section .content p{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.committee-section .content h1{
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+.committee-section .content .btn{
+    padding-top: 20px;
+}
+.committee-section .content .btn-1{
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+}
+
+@media(max-width: 574px){
+   /*--------------------------------------------header style--------------------------------------------------------*/
+.committee-section  .header{
+    padding-bottom: 25px;
+}
+.committee-section  .logo{
+    height: 100px;
+    width: 100px;
+}
+.committee-section .img-box{
+    max-width: 250px;
+    padding: 5px;
+} 
+
+.committee-section .committee-name{
+    padding-top: 25px;
+    height: 100px;
+    width: 100px;
+}
+.committee-section .committee-name h2{
+    font-size: 15px;
+}
+/*--------------------------------------------content style--------------------------------------------------------*/
+.committee-section .content{
+    padding: 25px 50px; 
+    
+}
+.committee-section .content p{
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.committee-section .content h1{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.committee-section .content .btn{
+    padding-top: 15px;
+}
+.committee-section .content .btn-1{
+    padding: 5px 15px;
+    font-size: 13px;
+}  
+}

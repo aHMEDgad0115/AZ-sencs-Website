@@ -1,0 +1,191 @@
+
+
+/*-- start About-Hero --*/ /*-- Moamen Gamal --*/
+	
+.about-hero{
+	width: 100%;
+	height: 600px;
+    color: white;
+} 
+/*------------------------------------------------------------ About-Hero End-------------------------------*/
+/*-- start Icons --*/ /*-- Moamen Gamal --*/
+.about-icons{
+height: 250px;
+}
+.about-icon {
+text-align: center;
+margin-top: 80px;
+} 
+/*-- -----------------------------------------------------Icons End--------------------------------------*/
+.my-skills
+{
+   background-color: #cacaca;
+}
+.my-skills .container
+{
+    max-width: 80%;
+}
+.my-skills .skills{
+	padding-bottom: 50px;
+}
+.my-skills .skills p{
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.my-skills .skills h2{
+	padding-top: 50px;
+    color: #111;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+/*----------------------------------start my skills----------------------------------------- */
+
+/*-----------------------------------end my skills-------------------------------------------- */
+/*---------------------------------------------------start committees----------------------*/
+.our-committees
+{
+   background-color:#ffffff;
+}
+.our-committees .container
+{
+    max-width: 80%;
+    margin: auto;
+}
+.our-committees h2{
+	text-align: center;
+    font-size: 40px;
+	font-weight: 800;
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+.our-committees span{
+	color: #ff9800;
+}
+.our-committees .boxs
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation-name: bottomToTop;
+    animation-duration: 2s;
+}
+.our-committees .boxs .box 
+{
+    flex: 1;
+    padding: 1rem;
+}
+.our-committees .boxs .box img
+{
+    width: 250px;
+    /*background-color: #09e2d0ee;*/
+    padding: 0.5rem;
+    border-radius: 0 50% 0 50%;
+}
+
+/*--------------------------------------------- :start board -------------------------------*/
+
+/*---------------------------------------------------start sponsors----------------------*/
+.our-sponsors
+{
+   /*background-color: #cacaca;*/
+   margin-top: 50px;
+}
+.our-sponsors .container
+{
+    max-width: 80%;
+    margin: auto;
+}
+.our-sponsors h2{
+	text-align: center;
+    font-size: 40px;
+	font-weight: 800;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.our-sponsors span{
+	color: #ff9800;
+}
+.our-sponsors .boxs
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+	padding-bottom: 50px;
+    animation-name: bottomToTop;
+    animation-duration: 2s;
+}
+.our-sponsors .boxs .box 
+{
+    flex: 1;
+    padding: 1rem;
+}
+.our-sponsors .boxs .box img
+{
+    width: 250px;
+    /*background-color: #09e2d0ee;*/
+    padding: 0.5rem;
+    border-radius: 0 50% 0 50%;
+}
+
+/*---------------------------------------------------start bord----------------------*/
+.bord
+{
+   background-color: #cacaca;
+   margin-top: 50px;
+   align-items: center;
+}
+.bord .container
+{
+    max-width: 80%;
+    margin: auto;
+}
+.bord h2{
+	text-align: center;
+    font-size: 40px;
+	font-weight: 800;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.bord span{
+	color: #ff9800;
+}
+.bord .box {
+	text-align: center;
+	align-items: center;
+}
+.bord .box img{
+	width: 150px;
+	border-radius: 50%;
+	/*padding-right: 50px;*/
+}
+.bord .box .leader{
+	display: block;
+}
+.bord .box .vices{
+	display: flex;
+	padding-left: 350px;
+}
+.bord .box .vices img{
+	margin-right: 30px;
+}
+.bord .box .heads .row{
+	display: flex;
+	margin-bottom: 50px;
+}
+.bord .box .heads .row .head-1{
+	margin: 20px;
+	display: flex;
+}
+.bord .box .heads .row .head-1 .member{
+	margin-right: 10px;
+}
+
+
+
+
+

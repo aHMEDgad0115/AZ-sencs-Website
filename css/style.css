@@ -1,0 +1,282 @@
+
+
+/*-- start Hero ---*/
+section .hero{
+	margin-top: -100px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-color: #888;
+	background-repeat:no-repeat ;
+	background-size:cover;
+	cursor: none;
+	}
+	.ani-hero{
+		height: 300px;
+		margin-top: 120px;
+		position: absolute;
+		animation-duration: 3s;
+		animation-iteration-count: 1;
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+	}
+	.hero .leftSide {
+		animation-name:  leftSide ;
+	}
+	.hero .rightSide {    
+		animation-name: rightSide;
+	}
+	.hero .mid-hero{
+		width: 500px;
+		height: auto;
+		position: absolute;
+		visibility: hidden;
+		margin: 10px calc(50% - 225px) 0;
+		animation-name: middleSide ;
+		animation-duration: 1.6s; 
+		animation-delay: 1s;
+		animation-iteration-count: 1;
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+		z-index: 10;
+	}
+	
+	@keyframes leftSide{
+		0%{
+			opacity: 1;
+			left: -15rem; 
+		}
+		80%{
+			opacity: 1;
+		}
+		88%{
+			opacity: 0;
+		}
+		100%{
+			opacity: 0;
+			left: 50% ;
+		} 
+	}
+	
+	@keyframes rightSide{
+		0%{
+			opacity: 1;
+			right: -25rem;
+		}
+		80%{
+			opacity: 1;
+		}
+		88%{
+			opacity: 0;
+		}
+		100%{
+			opacity: 0;
+			right: 50%; 
+		}
+	}
+	@keyframes middleSide{
+		from{
+		  opacity: 0;
+		}
+		to{
+			opacity: 1;
+		 visibility: visible;
+		}
+	}
+
+
+/*-- start information-icons --*//*-- Moamen Gamal --*/
+
+.information-icons{
+	height: 300px;
+	background-color: #cacaca;
+
+}
+.information-icons .information-icon{
+	margin-top: 80px;
+	text-align: center;
+}
+
+/*-- end information-icon s --*//*-- Moamen Gamal --*/
+
+/* start style of text*/
+
+.parent{
+	padding-top: 10px;
+	padding-bottom: 70px;
+	  background-color:#CACACA ;
+	  height:auto;
+	  font-size: 20px;
+	  font-weight:20px ;
+	  font-family:'Bona Nova', serif;
+	  
+	  /*text-align: center;*/
+  }
+  
+   .parent p{
+    width: auto;
+	height: 242px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg) ;
+	margin-right: 1022px;
+	font-size: 35px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 43px;
+    
+   
+  }
+  .container-home{
+	overflow: hidden;
+   width: 600px;
+   margin-top: -261px;
+   margin-left: 173px;
+   margin-right: auto;
+   padding-left:15px;
+   padding-right: 15px;
+   
+  }
+  /* small screen*/
+  @media (max-width:768px){
+	.container-home{
+	  width: 300px;
+	}
+	.parent p{
+		transform: none;
+		text-align: center;
+	}
+   
+  }
+  @media (min-width:768px){
+	.container-home{
+	  width: 500px;
+	}
+   
+  }
+  /*medium*/
+  @media (min-width:992px){
+	.container-home{
+	  width: 600px;
+	}
+  }
+  /*large*/
+  @media (min-width:1200px){
+	.container-home{
+	  width:1000px;
+	}
+  }
+
+/* end style of text*/
+
+
+/*start our actitvites Section*/
+
+.text{
+    margin-top: 60px;
+	margin-bottom: 40px;
+    font-size:40px;
+	font-weight: bold;
+	text-align: center;
+    }
+.text span{
+	color: #ff9800;
+}
+.our-activites{
+margin-bottom: 50px;
+
+}	
+.background {
+	background-image: url("../image/workshopimage.jpg");
+	background-repeat: no-repeat;
+    width:100%;
+    height: auto;
+    background-size: cover;
+    padding: 0%;
+}
+
+.transbox {
+    background-color: #000;;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%; 
+	margin: 0%;
+}
+
+.transbox p {
+	margin-top: 10%;
+    font-weight: bold;
+    color: #fff;
+	font-size: 50px;
+    text-align: center;
+}
+.background2{
+    background:url("../image/enentimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+	padding: 0;
+}
+
+.bottom{
+    margin-top: 80%;
+    margin-bottom: 20px;
+	padding: 10px;
+    background-color:#ff9a04;;
+    border: 5px;
+    border-style: hidden;
+    border-radius: 10px;
+    height: 35px;
+    width: 50%;
+    font-weight: bolder;
+
+}
+
+
+    
+
+
+
+/*end our actitvites Section*/
+
+/* start exhipition section */
+
+.exhep {
+    overflow: hidden;
+    background-color: #cacaca;
+    width: 100%;
+    height:auto;
+    margin-bottom: 50px;
+	overflow: hidden;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+
+}
+
+.exhep .ex_container .botton{
+ 
+    padding: 10px;
+    background-color:#ff9a04;;
+    border: 5px;
+    border-radius: 10px;
+    height: 35px;
+    font-weight: bolder;
+
+}
+
+
+.exhep h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+	text-align: center;
+	margin-bottom:50px ;
+	margin-top:50px ;
+
+
+}
+.exhep h5 span{
+	color: #ff9800;
+}
+/* end exhipition*/

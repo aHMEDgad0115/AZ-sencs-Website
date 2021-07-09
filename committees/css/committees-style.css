@@ -1,0 +1,136 @@
+
+:root{
+    --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+    --outer-shadow-0: 0 0 0  #d0d0d0, 0 0 0  #f8f8f8;
+    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+    --inner-shadaw-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
+}
+
+*:not(i){
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:before, ::after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.outer-shadow{
+    box-shadow: var(--outer-shadow);
+}
+.inner-shadow{
+    box-shadow: var(--inner-shadow);
+}
+.hover-in-shadow{
+    position: relative;
+    z-index: 1;
+}
+.hover-in-shadow:hover{
+    box-shadow: var(--outer-shadow-0);
+}
+.hover-in-shadow:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+.hover-in-shadow:hover:after{
+    box-shadow: var(--inner-shadow);
+}
+
+/*--------------------------------------------section style--------------------------------------------------------*/
+.committee-section{
+    background-color: #cacaca;
+    margin: 0px 50px;
+    padding: 20px;
+    padding-top: 80px;
+    border-top-left-radius:50px ;
+    border-top-right-radius:50px ;
+
+}
+/*--------------------------------------------header style--------------------------------------------------------*/
+.committee-section  .header{
+    padding-bottom: 50px;
+}
+.committee-section  .logo{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+.committee-section .img-box{
+    max-width: 450px;
+    border-radius: 50%;
+    padding: 15px;
+} 
+.committee-section .img-box img{
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid transparent;
+}
+
+.committee-section .committee-name{
+    padding-top: 50px;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.committee-section .committee-name h2{
+    text-align: center;
+    font-size: 30px;
+    color: #ff9800;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+/*--------------------------------------------content style--------------------------------------------------------*/
+.committee-section .content{
+    padding: 50px 100px; 
+    
+}
+.committee-section .content p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: right;
+}
+.committee-section .content h1{
+    color: #696967;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.committee-section .content .btn{
+    text-align: center;
+    padding-top: 30px;
+}
+.committee-section .content .btn-1{
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #ff9800;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: none;
+}
+.committee-section .content .btn-1:hover{
+    background-color: #ffffff;
+    color: #ff9800;
+}
+.committee-section .content .btn-1::after{
+    border-radius: 30%;
+}

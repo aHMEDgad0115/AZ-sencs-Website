@@ -1,0 +1,131 @@
+
+	/*-- start sponser Hero ---*/
+
+	.hero-sponser{
+		width:100%;
+		height:500px;
+		background-color: #888;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding-top: 200px;
+	}
+
+	.hero-sponser span,.speakers-hero span{
+		font-size: 75px;
+		display: inline-block;
+		height: 100px;
+		line-height: 80px;
+		font-weight: bolder;
+		letter-spacing: 10px;
+		border: 4px solid red;
+		color: red;
+		transform: rotate(340deg);
+	}
+	/*-- end sponser  Hero ---*/
+
+/*-- end Hero---*/
+
+/************************************************************/
+/*************************************************************/
+     /* start  events page*/
+	 
+/*-- start Home-Hero --*/ 
+	
+.event-hero{
+	margin-top: -100px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-image: url("../image/best.jpg");
+	background-repeat:no-repeat ;
+	background-size:cover;
+	cursor: none;
+	z-index: -1;
+}
+.event-hero .event-hero-bgcolor{
+	background-color: #222;
+	opacity: .7;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*-- About-Hero End -- */
+
+.information-icons-aboutourevent{
+	overflow: hidden;
+
+	background-color: #888;
+	border: 10px transparent solid;
+	border-radius: 45px 45px 0 0;
+	margin-top: -55px;
+}
+
+
+
+/*-- start Icons --*/ /*-- Moamen Gamal --*/
+
+/* About our events */
+
+.information-events{
+	padding: 20px;
+	padding-top: 50px;
+	text-align: center;
+	height: auto;
+}
+.information-events-h3{
+	color: #ff9800;
+	margin-top: -10px;
+	margin: 20px;
+	align-items: center;
+	font-size: 55px;
+	font-weight:bolder ;
+	}
+.information-events-h4{
+	font-size:  x-large;
+	margin: 10px;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.information-events-p{
+	width: 70%;
+	margin:10px 15% 10px 15%;
+	font-size:x-large;
+	line-height: 200%;
+}
+/* Our Event */
+.container-event{
+	text-align: center;
+	overflow: hidden;
+}
+.container-event .parent-event .image {
+	width: 60%;
+	height: auto;
+	justify-content: space-evenly;
+}
+.container-event .parent-event .image a img{
+	width: 80%;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+	height: 80%;
+}
+
+.container-event h2{
+	color: #232323;
+	text-align: center;
+	padding: 0 0 40px 0;
+	font-size: 55px;
+	margin-bottom: 0;
+	font-weight: 700;
+	margin: 60px 10px 50px 10px;
+	}
+	.container-event h2 span{
+	color: #ff9800;
+
+	}
+
+/* end events page*/
+

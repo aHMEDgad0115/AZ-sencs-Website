@@ -1,0 +1,69 @@
+
+.main1{
+  
+    display: block;
+    padding: 20px 20px;
+    margin: 40px;
+    width: 380px;
+    bottom: 50px;
+    border-radius: 10px;
+    background-color: #CACACA;
+    color:black;   
+    position: relative;
+    left: 150px;
+    top: 170px;
+}
+  
+textarea.main2{
+  
+    padding: 20px 30px;
+    height: 121px;
+    margin: 40px;
+    width: 300px;
+    float: right;  
+    border-radius: 10px;
+    background-color: #CACACA;
+    resize: none;
+    position: relative;
+    bottom: 180px;
+    right: 175px;
+ 
+}
+
+
+.main3{
+    
+    padding: 16px;
+    margin: 36px;
+    width: 350px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #FF9800;
+    color: #FFFFFF;
+    position: relative;
+    left: 740px;
+    top: 40px;
+  
+}
+
+.main3:hover{
+    background: #e6a84b;
+}
+
+body{
+    background-image: url(https://alphasonics.co.uk/wp-content/uploads/2020/08/110-1105447_transparent-map-of-world-png-southeast-asia-map.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1398px 619px;
+    
+}
+
+
+*{
+   margin-top:0 ;
+   outline: none;
+   transition: 0.5s;
+   border:0;
+   color: #000;
+   font-size: 18px;
+}
