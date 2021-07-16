@@ -248,12 +248,16 @@ section .hero{
     border: 5px;
     border-radius: 10px;
     font-weight: bolder;
+	outline: none;
 }
 
 .photo {
 	width: 100%;
 	height: 100%;
+	border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
+
 /* end exhipition*/
 
 

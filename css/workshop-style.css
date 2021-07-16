@@ -6,6 +6,7 @@
 	height:500px;
 	background-size: cover;
 }
+
 .information-hero .information-words{
 	display: flex;
 	width: 100%;
@@ -14,6 +15,7 @@
 	justify-content: center;
 	color:rgb(248, 224, 6);
 }
+
 .information-hero .information-word{
 	font-size: 60px;
 	text-transform: uppercase;
@@ -29,6 +31,7 @@
 	height: 250px;
 	background-color: #cacaca;
 }
+
 .information-icons .information-icon{
 	margin-top: 80px;
 	text-align: center;
@@ -40,27 +43,32 @@
 
 /*-- start workshops nav --*/ /**sara tarek***/
 
+.workshops_main {
+	justify-content: space-around;
+	margin: 40px 0;
+	position: relative;
+}
+
 .workshops-nav-aside{
 	background-color:#e6e6e6;
-    width: 20%;
-    height: 1100px;
     border-radius: 20px 20px 0 0; 
-	margin: 25px;
- 
 }
+
 .workshops-nav-aside .workshops-nav-ul .workshops-nav-li {
     cursor: pointer;
     list-style: none;
-    padding-top: 70px;
-   margin-right: 40px;
-   text-align: center;
+    padding-top: 50px;
+	text-align: center;
 }
+
 .workshops-nav-aside .workshops-nav-ul .workshops-nav-li a{
     text-decoration: none;
     color: black;
     line-height: 30px;
     font-weight: bold;
+	transition: .3s;
 }
+
 .workshops-nav-aside .workshops-nav-ul .workshops-nav-li a:hover{
     color: #ffb40b;
 }
@@ -68,122 +76,97 @@
 
 /*-- end workshops nav --*/ /*-- sara tarek --*/
 
-/*-- start workshops-information --*//* Ghada Ahmed */
-.workshops-parent{
-	background-color:#e6e6e6;
-	border-radius: 20px 20px 0px 0px;
-	margin: 25px;
-	padding: 40px 20px 50px 20px;
-	width: 70%;
-  }
-.workshops-content{
-	background-color: #cacaca;
-	margin: 20px 10px 30px 10px;
-	border-radius: 20px;
-	padding: 15px;
-  }
-.workshops-h2{
-	margin-bottom: 30px;
-	text-align: center;
-	color: #232220;
-  }
-.workshops-p{
-	color: #232220;
-  }
-.information-date{
-	text-align: center;
-  }
-
-  /*-- end workshops-information --*/ /* Ghada Ahmed */
-
 
 /*-- start workshop-information --*//* eman elomda */
 .information-parent{
 	background-color:#e6e6e6;
 	border-radius: 20px 20px 0px 0px;
-	margin: 25px;
-	padding: 40px 20px 50px 20px;
-	width: 70%;
-  }
-  .information-content{
+	padding: 40px 20px ;
+	width: 80%;
+}
+
+.information-content{
 	background-color: #cacaca;
 	margin: 20px 10px 30px 10px;
 	border-radius: 20px;
 	padding: 15px;
-  }
-  .iformation-h2{
+}
+
+.iformation-h2{
 	margin-bottom: 30px;
 	text-align: center;
 	color: #232220;
-	
-  }
-  .iformation-p{
+}
+
+.iformation-p{
 	color: #232220;
-  }
-  .information-date{
+}
+
+.information-date{
 	text-align: center;
-  }
-  .join-button{
+}
+
+.join-button{
 	background-color: #ff9800;
 	text-align: center;
 	padding: 8px;
 	width: 170px;
+	height: 35px;
 	border-radius: 20px;
 	border-style: none;
-	height: 35px;
 	color: #ffffff;
-  }
-  .information-parent #menu{
-	  display: none;
-  }
-  .information-parent .menu-bar{
-	display: none;
-  }
+	outline: none;
+}
 
-  
+.information-parent #menu{
+	display: none;
+}
+.information-parent .menu-bar{
+	display: none;
+}
+
 
 
   /*-- end workshop-information --*/ /* eman elomda */
-  
- 
+
+
 
 
 /* Small Mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) 
+{
+	.information-parent .menu-bar{ 
+		display: block;
+	}
+}
 
-	
-		.workshops-nav-ul{
-			display:none;
-		}
-	  
-		.workshops-nav-aside a i{
-			display: none;
-		}
-		.information-parent .menu-bar{ 
-			display: block; }
-	   
-		}
-		@media (max-width: 768px)
-		{
-			.workshops-nav-aside{
-				/*display: none;*/
-				position:absolute;
-				width: 70%;
-				height: 190vh;
-				background-color:#e6e6e6 ;
-				transition: .5s;
-				top: 910px;
-				left: -100%;
-				z-index: 20;
-				 }
-				 .active{
-					left: 10%;
-				 }
-				 .workshops-nav-aside ul{
-					 display: block;
-				 }
-			.menu-toggle{
-				display: block;
-			}
-		}
+@media (max-width: 768px)
+{
+	.workshops-nav-aside{
+		/*display: none;*/
+		position: absolute;
+		width: 80%;
+		height: 90%;
+		background-color: #e6e6e6;
+		transition: .5s;
+		top: 75px;
+		left: -100%;
+		z-index: 20;
+	}
+
+	.active {
+		left: 10%;
+	}
+
+	.workshops-nav-aside ul{
+		display: block;
+	}
+
+	.menu-toggle{
+		display: block;
+	}
+}
+.workshops-nav-aside .workshops-nav-ul .workshops-nav-li .active {
+	color: #ffb40b;
+}
