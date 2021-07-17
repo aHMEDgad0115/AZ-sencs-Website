@@ -231,7 +231,10 @@ height:300px;
 	padding-bottom: 0; }
 	.footer-04 .border-top {
 	  border-color: #1a1a1a !important;
-	  background: #1a1a1a; }
+	  background: #1a1a1a;
+	  padding: 0%;	
+	  height: 40px;
+	}
 	.footer-04 .footer-heading {
 	  font-size: 13px;
 	  color: #fff;
@@ -302,7 +305,6 @@ height:300px;
 	.footer-04 .copyright a {
 	  color: rgba(255, 255, 255, 0.5); }
   
-
 /*end footer */
 
 
