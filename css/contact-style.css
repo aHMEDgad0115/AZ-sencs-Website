@@ -48,13 +48,13 @@
 /*-- end contact us-hero and icons--*/
  
 	.form-contact{
-		width: 100%;
+		width: 104%;
 		height: 600px;
 		background-image: url('map.png');	
 		background-size: cover;
-		right: -20px;
+		margin-right: 0%;
 		padding-top: 100px;
-		
+		padding-right: 4%;		
 
 	}
 
@@ -110,9 +110,10 @@
 
     @media only screen and (max-width: 767px){
 		.form-contact{
-			width: 100%;
+			width: 104%;
 			height: 750px;
 			padding-top: 0%;
+			padding-right: 4%;
 	
 		}
 	
