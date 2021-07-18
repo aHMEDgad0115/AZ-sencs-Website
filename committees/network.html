@@ -28,41 +28,32 @@
 
 
         <!-- Header Section Begin -->
-        <header class="header-section ">
-            <div class="container-fluid">
-                <div class="inner-header">
-                    <div class="logo">
-                        <a href="../index.html"><img src="../image/logo.png" alt=""></a>
-                    </div>
-                   
-                    <nav class="main-menu mobile-menu">
-                        
-                        <ul>
-                            <li ><a href="../index.html">Home</a></li>
-                            <li class="active"><a href="../about.html">About</a></li>
-                            <li class="dropdown non_active_in_mobile">
-                                <a href="#" class="dropdown-toggle  " data-toggle="dropdown">Activites <span class="caret"></span></a>
-        
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="../events.html">Events</a></li>
-                                    <li><a href="../Workshops.html">Workshops</a></li>
-                                    <li><a href="../exhipitionPage.html">Exhibition</a></li>
-                                </ul>
-                            </li>
-                            
-                            <li class="active_in_mobile"><a href="../events.html">Events</a></li>
-                            <li class="active_in_mobile"><a href="../Workshops.html">Workshops</a></li>
-                            <li class="active_in_mobile"><a href="../exhipitionPage.html">Exhibition</a></li>
-    
-                            <li><a href="../contact.html">Contact us</a></li>
-                        </ul>
-                    </nav>
-                    <div id="mobile-menu-wrap"></div>
-                    
-    
-                </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#"><img src="../image/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainnav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item "><a class="nav-link" href="../about.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Activites
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../events.html">Events</a>
+                        <a class="dropdown-item" href="../Workshops.html">Workshops</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../exhipition.html">Exihipation</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../contact.html">Contact us</a></li>
+                </ul>
             </div>
-        </header>
+        </nav>
+
     <!-- Header End -->
   <body>
       <section class="committee-section">

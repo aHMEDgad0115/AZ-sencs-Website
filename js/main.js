@@ -21,19 +21,19 @@
         allowParentLinks: true
     });
 
-   
+
 'use strict';
 $ ('html').niceScroll();
 //check
 //start header
-const header1 = document .querySelector('.header-section');
+const header1 = document .querySelector('.navbar');
 
 document.addEventListener('scroll',()=>{
     var scrol=window.scrollY;
-    if (scrol > 250) {
-        header1.style.backgroundColor = "#29323c";
+    if (scrol > 300 ) {
+        header1.style.backgroundColor = " #272727 ";
         
-    }else{
+    }else {
         header1.style.backgroundColor = "transparent";
 
     }

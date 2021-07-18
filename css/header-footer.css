@@ -39,6 +39,7 @@ ul, ol {
 	background-color: #272727;
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
+	transition: .6s;
 }
 
 		/* img logo */
